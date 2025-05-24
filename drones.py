@@ -44,6 +44,11 @@ def get_db_connection():
         print(f"Error connecting to PostgreSQL or creating table: {e}")
         return None
 
+
+
+
+get_db_connection()
+
 # vvvv============ ADD THIS ENTIRE ROUTE FOR REACT TO FETCH DRONES ============vvvv
 @app.route('/api/drones', methods=['GET'])
 def get_drones_api():
