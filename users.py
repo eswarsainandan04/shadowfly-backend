@@ -527,4 +527,4 @@ def reset_password():
             conn.close()
 
 if __name__ == '__main__':
-    app.run(port=5062, debug=True)
+    app.run(port=5000, debug=True)
